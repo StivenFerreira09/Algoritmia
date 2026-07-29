@@ -9,7 +9,7 @@ public class MayorMenor {
 
         int[] numeros = new int[15];
 
-        // Ingresar los numeros
+        
         for (int i = 0; i < 15; i++) {
             System.out.print("Digite el numero " + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
@@ -18,7 +18,7 @@ public class MayorMenor {
         int mayor = numeros[0];
         int menor = numeros[0];
 
-        // Buscar el mayor y el menor
+        
         for (int i = 1; i < 15; i++) {
 
             if (numeros[i] > mayor) {
