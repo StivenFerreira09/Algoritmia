@@ -11,17 +11,16 @@ public class EncontrarNumero {
         int buscar;
         boolean encontrado = false;
 
-        // Ingresar los numeross
         for (int i = 0; i < 25; i++) {
             System.out.print("Digite el numeros " + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
         }
 
-        // Número a buscar
+       
         System.out.print("\nDigite el numeros que desea buscar: ");
         buscar = teclado.nextInt();
 
-        // Buscar el numeros
+        
         for (int i = 0; i < 25; i++) {
             if (numeros[i] == buscar) {
                 System.out.println("El numeros existe.");
