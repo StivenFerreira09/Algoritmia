@@ -9,13 +9,13 @@ public class ArregloNumeros {
 
         int[] numeros = new int[10];
 
-        // Ingresar los numero
+        
         for (int i = 0; i < 10; i++) {
             System.out.print("Digite el numero " + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
         }
 
-        // Mostrar los numero
+        
         System.out.println("Los numero almacenados son:");
 
         for (int i = 0; i < 10; i++) {
