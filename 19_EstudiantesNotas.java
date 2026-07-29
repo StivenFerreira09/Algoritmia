@@ -13,7 +13,7 @@ public class EstudiantesNotas {
         int aprobados = 0;
         int reprobados = 0;
 
-        // Ingresar las notas
+        
         for (int i = 0; i < 30; i++) {
             System.out.print("Digite la nota del estudiante " + (i + 1) + ": ");
             notas[i] = teclado.nextDouble();
@@ -22,7 +22,7 @@ public class EstudiantesNotas {
         mayor = notas[0];
         menor = notas[0];
 
-        // Procesar las notas
+        
         for (int i = 0; i < 30; i++) {
 
             suma = suma + notas[i];
