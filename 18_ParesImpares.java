@@ -13,7 +13,7 @@ public class ParesImpares {
         int impares = 0;
         double promedio;
 
-        // Ingresar los numeros
+        
         for (int i = 0; i < 20; i++) {
             System.out.print("Digite el numero " + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
